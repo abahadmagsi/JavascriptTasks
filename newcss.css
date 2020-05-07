@@ -1,0 +1,646 @@
+body{
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.green{
+    color: green;
+}
+.blue{
+    color: blue;
+}
+
+.header-top{
+    background-color: blue;
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    float: left;
+    clear: both;
+
+}
+.header-top .logosul li{
+    list-style: none;
+    padding: 5px;
+    float: left;
+}
+
+.header-top ul li .logo{
+    position: relative;
+    bottom: 13px;
+    padding: 10px;
+    float: left;
+}
+
+.header-top .header-para{
+    position: relative;
+    bottom: 5%;
+    left: 10%;
+    color: aliceblue;
+}
+.btns li{
+    list-style: none;
+    display: inline-block;
+}
+.header-top .btns .btnul .btn1,.btn2,.btn3{
+    position: relative;
+    left: 700px;
+    top: -40px;
+}
+
+
+nav{
+    width: 100%;
+    height: 80px;
+    float: left;
+    clear: both;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+nav .navlogo img{
+    width: 15%;
+    height: fit-content;
+    position: relative;
+    bottom: 12px;
+}
+nav ul li{
+    list-style: none;
+}
+
+nav ul .navitem{
+    list-style: none;
+    float: left;
+    /* clear: left; */
+    padding: 1%;
+    position: relative;
+    bottom: 70px;
+
+    left: 40%;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul .navitem a:hover{
+    color: aliceblue;
+    background-color: blue;
+    border-radius: 100px;
+    width: 100px;
+    border: 1px solid blue;
+    border-width: 10px;
+}
+
+
+
+.body .page1 img{
+    width: 100%;
+}
+
+.headline{
+    background-color: blue;
+    color: white;
+    width: 90%;
+    height: 30px;
+    position: relative;
+    bottom: 20px;
+    left: 5%;
+    float: left;
+    clear: both;
+}
+
+.headline p{
+    position: relative;
+    bottom: 10px;
+}
+
+
+.intro .green,.blue{
+    font-size: 2em;
+    position: relative;
+    left: 30%;
+    border-bottom: 1px solid grey;
+}
+
+.intro p{
+    text-align: justify;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    top: 40px;
+}
+
+
+
+
+
+
+section{
+    background-color: blue;
+    margin-top: 100px;
+    color: white;
+    height: 400px;
+}
+section .food{
+    position: relative;
+    left: 50px;
+    top: 70px;
+}
+section .food img{
+    position: relative;
+    left: 60px;
+    top: 100px;
+}
+
+
+section .food h1{
+    position: relative;
+    left: 35px;
+    top: 80px;
+}
+section .food p{
+    position: relative;
+    left: 0px;
+    top: 70px;
+}
+
+
+
+
+section .family{
+    position: relative;
+    left: 400px;
+    bottom: 80px;
+}
+section .family img{
+    position: relative;
+    left: 60px;
+    top: 100px;
+}
+
+
+section .family h1{
+    position: relative;
+    left: 55px;
+    top: 80px;
+}
+section .family p{
+    position: relative;
+    left: 0px;
+    top: 75px;
+}
+
+
+
+
+
+
+section .medical{
+    position: relative;
+    left: 700px;
+    bottom: 220px;
+}
+section .medical img{
+    position: relative;
+    left: 60px;
+    top: 100px;
+}
+
+
+section .medical h1{
+    position: relative;
+    left: 55px;
+    top: 80px;
+}
+section .medical p{
+    position: relative;
+    left: 0px;
+    top: 70px;
+}
+
+
+
+
+
+
+section .education{
+    position: relative;
+    left: 950px;
+    bottom: 370px;
+}
+section .education img{
+    position: relative;
+    left: 60px;
+    top: 100px;
+}
+
+
+section .education h1{
+    position: relative;
+    left: 55px;
+    top: 80px;
+}
+section .education p{
+    position: relative;
+    left: 0px;
+    top: 75px;
+}
+
+
+
+
+
+
+.section2 h1{
+    color: blue;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+
+
+.section3{
+    margin-top: 100px;
+    height: 600px;
+}
+
+
+.section3 .sadqa{
+    border: 1px solid grey;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    position: relative;
+    left: 5%;
+    box-shadow:5px 5px 20px black;
+
+} 
+
+.section3 .sadqa img{
+    position: relative;
+    top: 10px;
+}
+
+
+
+
+
+
+.section3 .welfare{
+    border: 1px solid grey;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    position: relative;
+    left: 35%;
+    bottom: 150px;
+    box-shadow:5px 5px 20px black;
+
+} 
+
+.section3 .welfare img{
+    position: relative;
+    top: 10px;
+}
+
+
+
+
+.section3 .medical{
+    border: 1px solid grey;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    position: relative;
+    left: 65%;
+    bottom: 300px;
+    box-shadow:5px 5px 20px black;
+
+} 
+
+.section3 .medical img{
+    position: relative;
+    top: 10px;
+}
+
+
+
+.section3 .dastrakwan{
+    border: 1px solid grey;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    position: relative;
+    left: 5%;
+    bottom: 200px;
+    box-shadow:5px 5px 20px black;
+
+} 
+
+.section3 .dastrakwan img{
+    position: relative;
+    top: 10px;
+}
+
+
+
+.section3 .roplant{
+    border: 1px solid grey;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    position: relative;
+    left: 35%;
+    bottom: 350px;
+    box-shadow:5px 5px 20px black;
+
+} 
+
+.section3 .roplant img{
+    position: relative;
+    top: 10px;
+}
+
+
+
+
+.section3 .education{
+    border: 1px solid grey;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    position: relative;
+    left: 65%;
+    bottom: 500px;
+    box-shadow:5px 5px 20px black;
+
+} 
+
+.section3 .education img{
+    position: relative;
+    top: 10px;
+}
+
+
+
+
+
+
+
+
+
+.section4 h2{
+    color: blue;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section4 .hepatitis{
+    background-color: lightgray;
+    box-shadow: 1px 1px 3px rgb(165, 161, 161);
+    width: 400px;
+    height: 70px;
+    position: relative;
+    left: 1%;
+    background-image: url("Images/Images2/Hepatitis.png");
+    background-size: 45px;
+    background-repeat: no-repeat;
+    background-position: 40px;
+    color: blue;
+    font-weight: bolder;
+} 
+.section4 .hepatitis h3{
+    position: relative;
+    bottom: 17px;
+    left: 20px;
+}
+
+
+
+
+.section4 .housing{
+    background-color: lightgray;
+    box-shadow: 1px 1px 3px rgb(165, 161, 161);
+    width: 400px;
+    height: 70px;
+    position: relative;
+    left: 35%;
+    bottom: 90px;
+    background-image: url("Images/Images2/housing.png");
+    background-size: 45px;
+    background-repeat: no-repeat;
+    background-position: 40px;
+    color: blue;
+    font-weight: bolder;
+} 
+.section4 .housing h3{
+    position: relative;
+    bottom: 17px;
+    left: 20px;
+
+} 
+
+
+
+
+.section4 .literacy{
+    background-color: lightgray;
+    box-shadow: 1px 1px 3px rgb(165, 161, 161);
+    width: 400px;
+    height: 70px;
+    position: relative;
+    left: 1%;
+    bottom: 90px;
+    background-image: url("Images/Images2/IT.png");
+    background-size: 45px;
+    background-repeat: no-repeat;
+    background-position: 40px;
+    color: blue;
+    font-weight: bolder;
+} 
+.section4 .literacy h3{
+    position: relative;
+    bottom: 17px;
+    left: 20px;
+
+} 
+
+
+.section4 .tharparkar{
+    background-color: lightgray;
+    box-shadow: 1px 1px 3px rgb(165, 161, 161);
+    width: 400px;
+    height: 70px;
+    position: relative;
+    left: 35%;
+    bottom: 178px;
+    background-image: url("Images/Images2/tharparkar.png");
+    background-size: 45px;
+    background-repeat: no-repeat;
+    background-position: 40px;
+    color: blue;
+    font-weight: bolder;
+} 
+.section4 .literacy h3{
+    position: relative;
+    bottom: 17px;
+    left: 20px;
+
+} 
+
+
+
+
+.event h2{
+    color: blue;
+    border-bottom: 1px solid grey;
+}
+.event a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.event{
+    background-color: lightgray;
+    box-shadow: 1px 1px 3px rgb(165, 161, 161);
+    width: 300px;
+    height: 380px;
+    position: relative;
+    left: 75%;
+    bottom: 350px;
+}
+.event p{
+    text-align: justify;
+}
+
+
+.text{
+    text-align: center;
+    font-weight: 200;
+    padding: 40px;
+}
+
+.section4 .projects{
+    position: relative;
+    left: 30px;
+}
+
+
+
+
+
+
+
+.section5 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.section5 h1{
+    text-align: center;
+    color: blue;
+    font-size: 3em;
+}
+.section5{
+    position: relative;
+    bottom: 10px;
+}
+.section5 .food img{
+    position: relative;
+    left: 150px;
+    border: 3px solid grey;
+}
+.section5 .hazrat img{
+    position: relative;
+    left: 500px;
+    bottom: 210px;
+    border: 3px solid grey;
+}
+
+.section5 .hazrat2 img{
+    position: relative;
+    left: 850px;
+    bottom: 420px;
+    border: 3px solid grey;
+}
+.section5 .images{
+    position: relative;
+    top: 100px;
+}
+
+
+
+footer{
+    background-color: darkslategrey;
+    color:  white;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 0px;
+}
+
+footer .address{
+    position: relative;
+    top: 60px;
+    padding: 20px;
+}
+
+footer .links{
+    position: relative;
+    left: 500px;
+    bottom: 350px;
+}
+
+
+
+footer .contact{
+    position: relative;
+    left: 900px;
+    bottom: 400px;
+}
+
+footer .contact i{
+    padding: 10px;
+}
+footer address a{
+    color: white;
+    text-decoration: none;
+}
+footer address a:visited{
+    color: white;
+}
+footer address a:hover{
+    color: white;
+}
+
+
+
+.copyright{
+    width: 100%;
+    height: 40px;
+    background-color: blue;
+    position: relative;
+    bottom: 50px;
+}
+
+
+.copyright p{
+    padding: 15px;
+}
+
